@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="saity">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.log.pack.logintestcases"/>
+      <class name="com.log.pack.leavepage_testcases"/>
+      <class name="com.log.pack.home_pageestcases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- saity -->
